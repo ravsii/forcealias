@@ -2,12 +2,14 @@ package alias
 
 import (
 	"fmt"
+	_ "fmt"
 	x "fmt"
-	"net/url"
+	. "io"
 )
 
 func goplsDontRemove() {
 	_ = fmt.Append
 	_ = x.Append
-	_ = url.URL{}
+
+	x.Fprint(Discard, "nothing")
 }
