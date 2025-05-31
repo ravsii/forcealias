@@ -1,6 +1,14 @@
 # forcealias
 
-**`forcealias`** is a [Go static analysis](https://pkg.go.dev/golang.org/x/tools/go/analysis) tool that enforces specific import aliases in your codebase. It's especially useful for large projects or teams that want to maintain consistent import aliasing practices.
+> [!NOTE]
+> It seems like there's already a linter that does that, which I couldn't find
+> during the development, so use that one instead.
+> [importas](https://github.com/julz/importas)
+
+**`forcealias`** is a [Go static
+analysis](https://pkg.go.dev/golang.org/x/tools/go/analysis) tool that enforces
+specific import aliases in your codebase. It's especially useful for large
+projects or teams that want to maintain consistent import aliasing practices.
 
 ## Features
 
